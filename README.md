@@ -1,4 +1,3 @@
-
 # EX-01-Datatypes-Operators
 ## AIM:
 Write a C program to read 3 characters one by one and print the characters in a reverse order.
@@ -11,7 +10,7 @@ Write a C program to read 3 characters one by one and print the characters in a 
 
 ## PROGRAM:
 
-'''
+```
 #include <stdio.h>
 
 int main() {
@@ -26,19 +25,18 @@ int main() {
 	return 0;
 }
 
-'''
+```
 ## OUTPUT:
 
-'''
+```
 Enter three characters: A
 B
 C
 Characters in reverse order: C B A
-'''
+```
 
 ## RESULT:
 Thus the program to read 3 characters one by one and print the characters in a reverse order has been executed successfully.
-
 
 # EX-02- Conditional-Statements
 ## AIM:
@@ -54,7 +52,7 @@ Write a C program to read A values and check whether A is positive number or not
 
 # PROGRAM:
 
-'''
+```
 #include <stdio.h>
 
 int main() {
@@ -68,25 +66,21 @@ int main() {
     }
     return 0;
 }
-'''
+```
 
 # OUTPUT:
 
-'''
+```
 Enter the value of A: 10
 10 is a positive number.
 
 Enter the value of A: -5
 -5 is not a positive number.
-'''
+```
 
 # RESULT:
 Thus the program to read A values and check whether A is positive number or not has been executed successfully.
  
- 
- 
-
-
 # EX-03- Operators-Expressions
 ## AIM:
 Write a program to find minimum between two fraction numbers using conditional operator or ternary operator.
@@ -102,7 +96,7 @@ Write a program to find minimum between two fraction numbers using conditional o
 
 ## PROGRAM:
 
-'''
+```
 #include <stdio.h>
 
 int main() {
@@ -124,26 +118,22 @@ int main() {
     printf("The minimum fraction is: %.2f\n", min_frac);
     return 0;
 }
-'''
+```
 
 ## OUTPUT:
 
-'''
+```
 Enter the first fraction (numerator/denominator): 1/2
 Enter the second fraction (numerator/denominator): 1/4
 The first fraction is: 0.50
 The second fraction is: 0.25
 The minimum fraction is: 0.25
-'''
+```
 
 ## RESULT:
 Thus the program to find minimum between two fraction numbers using conditional operator or ternary operator has been executed successfully.
 
-
-
-
 # EX-04- Using Conditional Statements
-
 ## AIM:
 Write a C program to check whether the input value is equal to 1 using simple if statement
 
@@ -157,7 +147,7 @@ Write a C program to check whether the input value is equal to 1 using simple if
 
 ## PROGRAM:
 
-'''
+```
 #include <stdio.h>
 
 int main() {
@@ -171,26 +161,25 @@ int main() {
     }
     return 0;
 }
-'''
+```
 
 ## OUTPUT:
 
-'''
+```
 Enter an integer value: 1
 The input value is equal to 1.
 
 Enter an integer value: 10
 The input value is not equal to 1.
-'''
+```
 
 ## RESULT:
 Thus the program to check whether the input value is equal to 1 using simple if statement has been executed successfully
 
-
-
 # EX-05- Calculating Total, Percentage, And Division Using Conditional Statements 
 ## AIM:
 To write a C program that reads marks of three subjects, calculates the total and percentage, and then determines the division (First, Second, Pass, or Fail) based on the percentage and minimum marks criteria.
+
 ## ALGORITHM:
 1.	Start
 2.	Declare integer variables m1, m2, m3 for marks, and float variables tot, per.
@@ -205,9 +194,10 @@ b.	Else if percentage >= 48: Print “Division = Second”
 c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
+
 ## PROGRAM:
 
-'''
+```
 #include <stdio.h>
 
 int main() {
@@ -232,16 +222,16 @@ int main() {
     }
     return 0;
 }
-'''
+```
 
 ## OUTPUT:
 
-'''
+```
 Enter the marks for three subjects: 75 80 90
 Total Marks = 245.00
 Percentage = 81.67%
 Division = First
-'''
+```
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
