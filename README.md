@@ -15,7 +15,9 @@ Write a C program to read 3 characters one by one and print the characters in a 
 #include <stdio.h>
 
 int main() {
+
 	char char1, char2, char3;
+ 
 	printf("Enter three characters: ");
 	scanf("%c", &char1);
  	scanf("%c", &char2);
@@ -23,6 +25,7 @@ int main() {
 	printf("Characters in reverse order: %c %c %c\n", char3, char2, char1);
 	return 0;
 }
+
 '''
 ## OUTPUT:
 
